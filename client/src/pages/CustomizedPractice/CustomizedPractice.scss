@@ -25,6 +25,10 @@
     text-align: left;
   }
 
+  &__label {
+    margin-left: variables.$pm-base * 4;
+  }
+
   &__level {
     margin-top: variables.$pm-base * 6;
   }

@@ -1,13 +1,13 @@
-import React from 'react';
-import Card from '../Card/Card';
-import congrats from '../../assets/congrats.gif';
-import './Modal.scss'
+import React from "react";
+import Card from "../Card/Card";
+import congrats from "../../assets/images/congrats.gif";
+import "./Modal.scss";
 
 const Modal = () => {
   return (
-    <Card className='modal'>
+    <Card className="modal">
       <h2>Good Job! 🥳 </h2>
-      <img src={congrats} alt="congrats"/>
+      <img src={congrats} alt="congrats" />
     </Card>
   );
 };

@@ -80,7 +80,9 @@ function CustomizedPractice() {
                       checkboxChangeCheck(li.id);
                     }}
                   />
-                  <label htmlFor={li.name}>{li.name}</label>
+                  <label className="cus-form__label" htmlFor={li.name}>
+                    {li.name}
+                  </label>
                 </div>
               ))}
             </div>
